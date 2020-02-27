@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90D77D92407F177003315AA /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D77D82407F177003315AA /* FlagImage.swift */; };
 		D9FA3BD823FD534800348F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA3BD723FD534800348F38 /* AppDelegate.swift */; };
 		D9FA3BDA23FD534800348F38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA3BD923FD534800348F38 /* SceneDelegate.swift */; };
 		D9FA3BDC23FD534800348F38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FA3BDB23FD534800348F38 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90D77D82407F177003315AA /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 		D9FA3BD423FD534800348F38 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FA3BD723FD534800348F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FA3BD923FD534800348F38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				D9FA3BE523FD534A00348F38 /* Info.plist */,
 				D9FA3BD723FD534800348F38 /* AppDelegate.swift */,
 				D9FA3BDB23FD534800348F38 /* ContentView.swift */,
+				D90D77D82407F177003315AA /* FlagImage.swift */,
 				D9FA3BED23FD6B8400348F38 /* Country.swift */,
 				D9FA3BD923FD534800348F38 /* SceneDelegate.swift */,
 				D9FA3BDD23FD534A00348F38 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90D77D92407F177003315AA /* FlagImage.swift in Sources */,
 				D9FA3BD823FD534800348F38 /* AppDelegate.swift in Sources */,
 				D9FA3BDA23FD534800348F38 /* SceneDelegate.swift in Sources */,
 				D9FA3BDC23FD534800348F38 /* ContentView.swift in Sources */,

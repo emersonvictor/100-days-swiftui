@@ -33,17 +33,7 @@ struct ContentView: View {
                     Button(action: {
                         self.didTapFlag(of: self.countries[num])
                     }) {
-                        Image(self.countries[num].stringValue)
-                            .renderingMode(.original)
-                            .cornerRadius(5)
-                            .shadow(color: Color(.sRGB,
-                                                 red: 0,
-                                                 green: 0,
-                                                 blue: 0,
-                                                 opacity: 0.4),
-                                    radius: 15, x: 0, y: 0)
-                            .overlay(RoundedRectangle(cornerRadius: 5)
-                                .stroke(Color.white, lineWidth: 4))
+                        FlagImage(imageNamed: self.countries[num].stringValue)
                     }
                     
                 }
@@ -72,7 +62,7 @@ struct ContentView: View {
     
     func didDismissScore() {
         self.countries.shuffle()
-        self.correctAnswer = Country.allCases[Int.random(in: 0..<Country.count)]
+        self.correctAnswer = self.countries[Int.random(in: 0..<2)]
     }
 }
 
